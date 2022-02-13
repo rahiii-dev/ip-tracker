@@ -35,7 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 500;
     color: hsl(0, 0%, 100%);
 }
 .user_input_container .user_input {
@@ -104,8 +104,9 @@ body {
 }
 .result_container > div div:first-child {
     font-size: 1rem;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--grey-400);
     margin-bottom: 1rem;
 }
