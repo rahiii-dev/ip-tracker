@@ -25,6 +25,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0 1.5rem;
+    box-shadow: 0 5px 30px hsla(0, 0%, 0%, 0.25);
 }
 
 .user_input_container .title {
@@ -39,11 +40,11 @@ body {
 }
 .user_input_container .user_input {
     width: 100%;
-    max-width: 37.5rem;
-    min-height: 3.75rem;
+    max-width: 34.375rem;
+    min-height: 3.125rem;
     display: flex;
     flex-wrap: nowrap;
-    border-radius: 0.75rem;
+    border-radius: 14px;
     overflow: hidden;
 }
 .user_input_container .user_input input {
@@ -52,7 +53,7 @@ body {
     outline: none;
     width: calc(100% - 3.75rem);
     font-size: 1.125rem;
-    padding: 1.25rem 0 1.25rem 1.5rem;
+    padding: 1rem 0 1rem 1.5rem;
 }
 .user_input_container .user_input button {
     cursor: pointer;
@@ -75,7 +76,7 @@ body {
     min-height: 10rem;
     display: flex;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 0.5rem;
+    border-radius: 12px;
     position: absolute;
     top: 200px;
     left: 50%;
@@ -87,7 +88,7 @@ body {
     width: 100%;
     max-width: 17.5rem;
     position: relative;
-    padding: 1.875rem;
+    padding: 2rem;
     flex-grow: 1;
 }
 .result_container > :not(.result_container > div:last-child)::after{
@@ -98,12 +99,13 @@ body {
     background-color: var(--grey-400);
     top: 50%;
     right: 0;
-    transform: translateY(-50%);  
+    transform: translateY(-50%);
+    opacity: 0.5;  
 }
 .result_container > div div:first-child {
     font-size: 0.75rem;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
     color: var(--grey-400);
     margin-bottom: 1rem;
 }
