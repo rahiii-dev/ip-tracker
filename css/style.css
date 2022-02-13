@@ -53,7 +53,7 @@ body {
     outline: none;
     width: calc(100% - 3.75rem);
     font-size: 1.125rem;
-    padding: 1rem 0 1rem 1.5rem;
+    padding: 1.15rem 0 1.15rem 1.5rem;
 }
 .user_input_container .user_input button {
     cursor: pointer;
@@ -88,7 +88,7 @@ body {
     width: 100%;
     max-width: 17.5rem;
     position: relative;
-    padding: 2rem;
+    padding: 2.2rem 2rem;
     flex-grow: 1;
 }
 .result_container > :not(.result_container > div:last-child)::after{
@@ -110,7 +110,7 @@ body {
     margin-bottom: 1rem;
 }
 .result_container > div div:last-child {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
     font-weight: 500;
     color: var(--grey-900);
     word-break: break-all;
