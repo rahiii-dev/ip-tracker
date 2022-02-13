@@ -103,7 +103,7 @@ body {
     opacity: 0.5;  
 }
 .result_container > div div:first-child {
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 700;
     color: var(--grey-400);
