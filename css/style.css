@@ -75,7 +75,8 @@ body {
     max-width: 69.5rem;
     min-height: 10rem;
     display: flex;
-    background-color: hsl(0, 0%, 100%);
+    /* background-color: hsl(0, 0%, 100%); */
+    background-color: red;
     border-radius: 12px;
     position: absolute;
     top: 200px;
